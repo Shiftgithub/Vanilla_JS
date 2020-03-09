@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang = "en">
+ 
+   	<head> 
+    	<meta charset = "utf-8">
+	    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+	    <title>Book</title>
+
+	    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+   	</head>
+	
+   	<body>
+
+	   	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  		<a class="navbar-brand" href="#">Book</a>
+		</nav>
+
+	<!-- Body part starts here  -->
+	<div class="container p-3">
+		<div class="header">
+			<h2>Create Account</h2>
+		</div>
+		<!-- Form part starts here -->
+		<form id="form" class="form">
+			<div class="row form-group">
+				<label class="col-md-12" class="col-md-2" for="username">Username</label>
+				<input class="form-control col-md-8" class="form-control col-md-8" type="text" placeholder="example135"  id="username" >
+				<small id="usernameError" class="col-md-8 text-danger"></small>
+			</div>
+			<div class="row form-group">
+				<label class="col-md-12" for="email">Email Address</label>
+				<input class="form-control col-md-8" type="email" placeholder="example@example.com" id="email">
+				<small id="emailError" class="col-md-8 text-danger"></small>
+			</div>
+			<div class="row form-group">
+				<label class="col-md-12" for="password">Password</label>
+				<input class="form-control col-md-8" type="password" placeholder="Password" id="password">
+				<small id="passwordError" class="col-md-8 text-danger"></small>
+			</div>
+			<div class="row form-group">
+				<label class="col-md-12" for="password2">Password Check</label>
+				<input class="form-control col-md-8" type="password" placeholder="Retype Password" id="password2">
+				<small id="password2Error" class="col-md-8 text-danger"></small>
+			</div>
+
+			<hr>
+
+			
+			<button class="btn btn-primary" type="submit">Submit</button>
+		</form>
+		<!-- Form part ends here -->
+	</div>
+	<!-- Body part ends here -->
+
+
+	<!-- Footer part starts -->
+	<div class="mx-auto text-white bg-dark p-3">
+		<center>
+			<small>Copyright © Sajib All rights reserved. Developed by Adova Soft</small>		
+		</center>
+	</div>
+	
+	<!-- Core JS -->
+	<script type="text/javascript" src="assets/main.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+	
+</html>
